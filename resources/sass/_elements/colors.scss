@@ -1,0 +1,37 @@
+/***********************************************
+*	LOGO COLORS							   *
+***********************************************/
+$green: #27ae60;
+$red: #c0392b;
+$purple: #291a2d;
+$light-purple: #673FB4;
+$blue: #2980b9;
+$black: #000;
+$gold: #cdaa6a;
+
+/***********************************************
+*	OTHER COLORS							   *
+***********************************************/
+$white: #FFF;
+$light-grey: #F3F3F3;
+$grey: #5d5d5d;
+$dark-grey: #383838;
+$blue-grey: #e8e9ee;
+$dark-purple: darken($purple, 0.7);
+
+
+/***********************************************
+*	BG COLORS							   *
+***********************************************/
+
+.bg-green{
+    background-color: $green;
+}
+
+.bg-bluegrey{
+    background-color: $blue-grey;
+}
+
+.bg-404{
+    background-color: #FBF8F8;
+}

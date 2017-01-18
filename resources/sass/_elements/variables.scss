@@ -1,0 +1,22 @@
+$font-primary: 'Open Sans', Arial, sans-serif;
+// Overrides
+$grid-gutter-width: 40px;
+$border-radius-base:  4px;
+$padding-base-vertical: 14px;
+
+$brand-primary: #cdaa6a;
+$brand-secondary: #291a2d;
+
+$brand-white: #fff;
+$brand-black: #000;
+$brand-lighter: #848484;
+$brand-darker: #5a5a5a;
+$brand-selection-color: $brand-primary;
+$brand-body-color: #fcfcfc;
+$brand-body-bg: #fff;
+$brand-dark-footer: #222831;
+
+$input-border-focus: $brand-primary;
+$form-group-margin-bottom: 30px;
+
+@import '_elements/colors';
