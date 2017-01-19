@@ -39,18 +39,3 @@ figure {
 .animate-box {
 		opacity: 0;
 }
-
-::-webkit-selection {
-  color: $brand-body-color;
-  background: $brand-selection-color;
-}
-
-::-moz-selection {
-  color: $brand-body-color;
-  background: $brand-selection-color;
-}
-
-::selection {
-  color: $brand-body-color;
-  background: $brand-selection-color;
-}

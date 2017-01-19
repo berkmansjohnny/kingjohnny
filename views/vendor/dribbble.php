@@ -1,5 +1,5 @@
 
-		<!-- MEDIUM -->
+		<!-- DRIBBBLE -->
 		<div id="king-blog-section">
 			<div class="container">
 				<div class="row">
