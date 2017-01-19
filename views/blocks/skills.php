@@ -12,7 +12,7 @@
 									<h3><a href="#">Enthousiaste designer</a></h3>
 									<p>Een digitale <span>wereldverbeteraar</span>.
 										Vanuit de wildste ideejtes naar een concept toe werken en dit te proberen naar een strak, <span>kwalitatief design</span>.
-										Waar alles op de juiste plaats lijkt te staan. <br> Daar leg ik mijn lat.!</p>
+										Waar alles op de juiste plaats lijkt te staan. Daar leg ik mijn lat.!</p>
 									<a href="http://dribbble.com/kingjohnny" class="btn btn-primary with-arrow">Check my Dribble <i class="icon-dribbble2"></i></a>
 								</div>
 							</div>
