@@ -2,13 +2,12 @@
 		<div id="king-skills">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 work">
-						<div class="row">
-							<div class="col-md-6 col-md-pull-2">
+					<div class="column-12 work">
+							<div class="column-6 first-item">
 								<div class="half-inner" style="background-image:url(assets/images/design.jpg);">
 								</div>
 							</div>
-							<div class="col-md-6 animate-box">
+							<div class="column-6 animate-box">
 								<div class="desc">
 									<h3><a href="#">Enthousiaste designer</a></h3>
 									<p>Een digitale <span>wereldverbeteraar</span>.
@@ -17,15 +16,9 @@
 									<a href="http://dribbble.com/kingjohnny" class="btn btn-primary with-arrow">Check my Dribble <i class="icon-dribbble2"></i></a>
 								</div>
 							</div>
-						</div>
 					</div>
-					<div class="col-md-12 work">
-						<div class="row">
-							<div class="col-md-6 col-md-push-6">
-								<div class="half-inner half-inner2" style="background-image:url(assets/images/development.jpg);">
-								</div>
-							</div>
-							<div class="col-md-6 col-md-pull-6 animate-box">
+					<div class="column-12 work">
+							<div class="column-6 column-pull-6 animate-box">
 								<div class="desc desc2">
 									<h3><a href="#">Front-end developer</a></h3>
 									<p>Code schrijven volgens de regels van de kunst, maar toch met een personal touch.
@@ -36,15 +29,18 @@
 									<a href="http://github.com/kingjohnny" class="btn btn-primary with-arrow">Check mijn Github <i class="icon-github"></i></a>
 								</div>
 							</div>
+							<div class="column-6">
+								<div class="half-inner half-inner2" style="background-image:url(assets/images/development.jpg);">
+								</div>
+							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 
 			<div id="king-features">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 animate-box">
+						<div class="column-4 animate-box">
 
 							<div class="feature-left">
 								<span class="icon">
@@ -58,7 +54,7 @@
 
 						</div>
 
-						<div class="col-md-4 animate-box">
+						<div class="column-4 animate-box">
 							<div class="feature-left">
 								<span class="icon">
 									<i class="icon-toolbox"></i>
@@ -70,7 +66,7 @@
 							</div>
 
 						</div>
-						<div class="col-md-4 animate-box">
+						<div class="column-4 animate-box">
 							<div class="feature-left">
 								<span class="icon">
 									<i class="icon-anchor"></i>

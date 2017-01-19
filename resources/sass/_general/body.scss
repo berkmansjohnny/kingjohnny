@@ -12,7 +12,7 @@ body {
 }
 a {
 	color: $brand-primary;
-	@include transition(.5s);
+	text-decoration: none;
 	&:hover{
 		text-decoration: none !important;
 		color: $brand-primary !important;

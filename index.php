@@ -42,8 +42,7 @@
 
 	<!-- jQuery Easing -->
 	<script src="assets/js/vendor/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="assets/js/vendor/bootstrap.min.js"></script>
+
 	<!-- Waypoints -->
 	<script src="assets/js/vendor/jquery.waypoints.min.js"></script>
 	<!-- Stellar -->

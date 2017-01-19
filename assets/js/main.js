@@ -27,7 +27,7 @@
 			}).then(function(res) {
 				var html = [];
 				res.forEach(function(shot) {
-					html.push('<div class="card col-lg-4 col-md-4 shots--shot">');
+					html.push('<div class="card inset-s column-4 shots--shot">');
 					html.push('<div class="king-blog">');
 					html.push('<a href="' + shot.html_url + '" target="_blank">');
 					html.push('<img class="img-responsive" src="' + shot.images.normal + '">');
