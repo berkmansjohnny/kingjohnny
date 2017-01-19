@@ -33,13 +33,13 @@
 
 
 	</div>
-	<!-- END king-page -->
 
 	</div>
-	<!-- END king-wrapper -->
 
 	<!-- jQuery -->
 	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/vendor/jribble.js"></script>
+
 	<!-- jQuery Easing -->
 	<script src="assets/js/vendor/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->

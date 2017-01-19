@@ -3,7 +3,9 @@
 	margin-bottom: 0;
 	z-index: 9999999;
 }
-
+.inline{
+	display: inline-block;
+}
 .king-cover,
 .king-hero {
 	position: relative;

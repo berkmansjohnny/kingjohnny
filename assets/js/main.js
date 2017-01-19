@@ -19,65 +19,23 @@
 		$(window).stellar();
 	};
 
+	// Dribbble
+	$.jribbble.setToken('4655f9e2640560e7e2fc7b6672d918eb4119bb496d6cf75dfce01ed178fe7738');
+	$.jribbble.users('kingjohnny').shots({
+				'per_page': 3,
+				'sort': 'views'
+			}).then(function(res) {
+				var html = [];
+				res.forEach(function(shot) {
+					html.push('<div class="card col-lg-4 col-md-4 shots--shot">');
+					html.push('<div class="king-blog">');
+					html.push('<a href="' + shot.html_url + '" target="_blank">');
+					html.push('<img class="img-responsive" src="' + shot.images.normal + '">');
+					html.push('</a></div></div>');
+				});
 
-	// Offcanvas and cloning of the main menu
-	var offcanvas = function() {
-
-		var $clone = $('#king-menu-wrap').clone();
-		$clone.attr({
-			'id' : 'offcanvas-menu'
-		});
-		$clone.find('> ul').attr({
-			'class' : '',
-			'id' : ''
-		});
-
-		$('#king-page').prepend($clone);
-
-		// click the burger
-		$('.js-king-nav-toggle').on('click', function(){
-
-			if ( $('body').hasClass('king-offcanvas') ) {
-				$('body').removeClass('king-offcanvas');
-			} else {
-				$('body').addClass('king-offcanvas');
-			}
-			// $('body').toggleClass('king-offcanvas');
-
-		});
-
-		$('#offcanvas-menu').css('height', $(window).height());
-
-		$(window).resize(function(){
-			var w = $(window);
-
-
-			$('#offcanvas-menu').css('height', w.height());
-
-			if ( w.width() > 769 ) {
-				if ( $('body').hasClass('king-offcanvas') ) {
-					$('body').removeClass('king-offcanvas');
-				}
-			}
-
-		});
-
-	}
-
-
-
-	// Click outside of the Mobile Menu
-	var mobileMenuOutsideClick = function() {
-		$(document).click(function (e) {
-	    var container = $("#offcanvas-menu, .js-king-nav-toggle");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-	      if ( $('body').hasClass('king-offcanvas') ) {
-				$('body').removeClass('king-offcanvas');
-			}
-	    }
-		});
-	};
-
+				$('.shots').html(html.join(''));
+			});
 
 	// Animations
 
@@ -111,8 +69,6 @@
 	// Document on load.
 	$(function(){
 		parallax();
-		offcanvas();
-		mobileMenuOutsideClick();
 		contentWayPoint();
 	});
 
