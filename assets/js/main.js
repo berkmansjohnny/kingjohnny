@@ -27,7 +27,7 @@
 			}).then(function(res) {
 				var html = [];
 				res.forEach(function(shot) {
-					html.push('<div class="card col-lg-4 col-md-4 shots--shot">');
+					html.push('<div class="card inset-s column-4 shots--shot">');
 					html.push('<div class="king-blog">');
 					html.push('<a href="' + shot.html_url + '" target="_blank">');
 					html.push('<img class="img-responsive" src="' + shot.images.normal + '">');
@@ -64,13 +64,21 @@
 
 		} , { offset: '85%' } );
 	};
-
-
+	$(function(){
+			var greeting;
+			var time = new Date().getHours();
+				if (time < 10) {
+						greeting = "Good morning";
+				} else if (time < 20) {
+						greeting = "Good day";
+				} else {
+						greeting = "Good evening";
+				};
+				$('title').append(greeting);
+		});
 	// Document on load.
 	$(function(){
 		parallax();
 		contentWayPoint();
 	});
-
-
 }());

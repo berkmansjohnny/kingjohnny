@@ -28,24 +28,6 @@
 		border-color: lighten($brand-primary, 5%)!important;
 		color: $brand-white !important;
 	}
-	&.btn-outline {
-		background: transparent;
-		color: $brand-primary;
-		border: 2px solid $brand-primary;
-		&:hover, &:focus, &:active {
-			background: $brand-primary;
-			color: $brand-white;
-		}
-	}
-}
-.btn-outline {
-	background: none;
-	border: 2px solid lighten($brand-black, 50%);
-	font-size: 16px;
-	transition: all .3s ease-in;
-	&:hover, &:focus, &:active {
-		box-shadow: none;
-	}
 }
 
 .btn.with-arrow {

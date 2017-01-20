@@ -158,10 +158,11 @@
 .heading-section{
 	padding-bottom: 1em;
 	margin-bottom: 5em;
+	margin-left: 16%;
+	
 	&:after{
 		position: absolute;
 		content: '';
-		bottom: 0;
 		left: 50%;
 		width: 100px;
 		margin-left: -50px;
@@ -469,6 +470,10 @@
 	@media screen and (max-width: $screen-sm) {
 		margin-top: 11em;
 	}
+	.first-item{
+		right: 16.66667%;
+		position: relative;
+	}
 	.work{
 		width: 100%;
 		float: left;
@@ -575,9 +580,15 @@
 
 .king-blog{
 	margin-bottom: 60px;
+	-webkit-box-shadow: 0px 6px 62px -6px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 6px 62px -6px rgba(0,0,0,0.3);
+	-ms-box-shadow: 0px 6px 62px -6px rgba(0,0,0,0.3);
+	-o-box-shadow: 0px 6px 62px -6px rgba(0,0,0,0.3);
+	box-shadow: 0px 6px 62px -6px rgba(0,0,0,0.3);
 	a{
 		img{
 			width: 100%;
+			display: block;
 		}
 	}
 

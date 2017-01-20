@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title> >_ Howdy partner</title>
+		<title> >_ </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" href="favicon.ico">
@@ -31,7 +31,6 @@
 
 			<?php include('views/blocks/footer.php') ?>
 
-
 	</div>
 
 	</div>
@@ -40,10 +39,15 @@
 	<script src="assets/js/vendor/jquery.min.js"></script>
 	<script src="assets/js/vendor/jribble.js"></script>
 
+	<script>
+	$(function(){
+
+	});
+	</script>
+
 	<!-- jQuery Easing -->
 	<script src="assets/js/vendor/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="assets/js/vendor/bootstrap.min.js"></script>
+
 	<!-- Waypoints -->
 	<script src="assets/js/vendor/jquery.waypoints.min.js"></script>
 	<!-- Stellar -->
