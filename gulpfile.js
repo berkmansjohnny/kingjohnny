@@ -19,7 +19,7 @@ var config = {
     sassDir: './resources/sass',
     targetCSSDir: './assets/css',
     sourceSassFilename: 'king.scss',
-    sourceSassVendorFilename: 'vendor.scss',
+    sourceDarkSassFilename: 'king-dark.scss',
 
     jsDir: './resources/js',
     targetJSDir: './assets/js',

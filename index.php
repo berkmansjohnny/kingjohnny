@@ -14,8 +14,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800|Slabo+27px" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
 
-		<link rel="stylesheet" href="assets/css/king.css">
-
 		<?php include('views/_partials/metaheader.php') ?>
 
 	</head>

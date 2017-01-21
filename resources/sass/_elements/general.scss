@@ -14,16 +14,16 @@ img{
 }
 
 ::-webkit-selection {
-  color: $brand-body-color;
-  background: $brand-selection-color;
+  color: $white;
+  background: $selection-color;
 }
 
 ::-moz-selection {
-  color: $brand-body-color;
-  background: $brand-selection-color;
+  color: $white;
+  background: $selection-color;
 }
 
 ::selection {
-  color: $brand-body-color;
-  background: $brand-selection-color;
+  color: $white;
+  background: $selection-color;
 }
