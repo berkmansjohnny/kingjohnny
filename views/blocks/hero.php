@@ -1,6 +1,6 @@
 <div class="king-hero">
   <div class="king-overlay"></div>
-  <div class="king-cover" data-stellar-background-ratio="0.5" style="background-image: url(assets/images/kingjohnny.jpg);">
+  <div class="king-cover" data-stellar-background-ratio="0.5" style="background-image: url('assets/images/hero/whotheking.jpg');">
     <div class="about animate-box">
       <div class="container">
         <div class="column-8">

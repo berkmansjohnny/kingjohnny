@@ -13,7 +13,7 @@
 									<p>Een digitale <span>wereldverbeteraar</span>.
 										Vanuit de wildste ideejtes naar een concept toe werken en dit te proberen naar een strak, <span>kwalitatief design</span>.
 										Waar alles op de juiste plaats lijkt te staan. Daar leg ik mijn lat.!</p>
-									<a href="http://dribbble.com/kingjohnny" class="btn btn-primary with-arrow">Check my Dribble <i class="icon-dribbble2"></i></a>
+									<a href="http://dribbble.com/kingjohnny" class="btn btn-primary with-arrow">Check mijn Dribbbles <i class="icon-dribbble2"></i></a>
 								</div>
 							</div>
 					</div>
@@ -26,7 +26,7 @@
 										 af van de mogelijkheden van <span>html &amp; css</span>.
 									</p>
 
-									<a href="http://github.com/kingjohnny" class="btn btn-primary with-arrow">Check mijn Github <i class="icon-github"></i></a>
+									<a href="http://github.com/kingjohnny" class="btn btn-primary with-arrow">Check mijn code <i class="icon-github"></i></a>
 								</div>
 							</div>
 							<div class="column-6">
@@ -46,9 +46,9 @@
 								<span class="icon">
 									<i class="icon-heart"></i>
 								</span>
-								<div class="feature-copy">
-									<h3>Denk strategisch</h3>
-									<p>Denk aan morgen en aan je gebruikers.</p>
+								<div class="feature-copy inset">
+									<h3>Liefde voor het product</h3>
+									<p>Niet aan jezelf denken, maar aan de gebruikers van je product. Iets maken dat ook werkt en er niet alleen goed uit ziet!</p>
 								</div>
 							</div>
 
@@ -59,9 +59,9 @@
 								<span class="icon">
 									<i class="icon-toolbox"></i>
 								</span>
-								<div class="feature-copy">
+								<div class="feature-copy inset">
 									<h3>MAGT-stack</h3>
-									<p>Grunt, gulp, less, sass, node, webpack, ... Kies degene die het beste bij je past en maak ze meester.</p>
+									<p>Grunt, gulp, less, sass, node, webpack, ... alles in je toolbox om een digitale ervaring te creëren.</p>
 								</div>
 							</div>
 
@@ -71,8 +71,8 @@
 								<span class="icon">
 									<i class="icon-anchor"></i>
 								</span>
-								<div class="feature-copy">
-									<h3>Wees authentiek</h3>
+								<div class="feature-copy inset">
+									<h3>Authentiek zijn</h3>
 									<p>Authenticiteit is echtheid. Alles wat het project uitstraalt, moet in evenwicht zijn, maar mag ook flawsome zijn! </p>
 								</div>
 							</div>

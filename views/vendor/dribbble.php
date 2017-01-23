@@ -4,8 +4,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="column-8 relative text-center heading-section animate-box">
-						<h3>Dribbble</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+						<h3>Dribbbles</h3>
+						<p>Hét platform voor mijn werk te showcasen en een dagelijkse dosis inspiratie op te doen.</p>
 					</div>
 				</div>
 			</div>

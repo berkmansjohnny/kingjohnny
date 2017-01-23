@@ -9,12 +9,12 @@
         </div>
         <div class="logo animate-box">
           <div class="inner">
-            <img class="img-responsive" src="assets/images/tools/photoshop.png" alt="">
+            <a href="htt://behance.com/kingjohnny" target="_blank"><img class="img-responsive" src="assets/images/tools/photoshop.png" alt=""></a>
           </div>
         </div>
         <div class="logo animate-box">
           <div class="inner">
-            <img class="img-responsive" src="assets/images/tools/github.png" alt="">
+            <a href="htt://github.com/kingjohnny" target="_blank"><img class="img-responsive" src="assets/images/tools/github.png" alt=""></a>
           </div>
         </div>
         <div class="logo animate-box">

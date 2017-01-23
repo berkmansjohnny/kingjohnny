@@ -8,10 +8,10 @@
 
         <nav id="king-social-wrap">
           <ul class="king-social">
-            <li><a href="#"><i class="icon-dribbble2"></i> </a></li>
-            <li><a href="#"><i class="icon-github"></i> </a></li>
-            <li><a href="#"><i class="icon-instagram"></i> </a></li>
-            <li><a href="#"><i class="icon-twitter2"></i> </a></li>
+            <li><a href="http://dribbble.com/kingjohnny"><i class="icon-dribbble2"></i> </a></li>
+            <li><a href="http://github.com/kingjohnny"><i class="icon-github"></i> </a></li>
+            <li><a href="http://instagram.com/berkmansjohnny"><i class="icon-instagram"></i> </a></li>
+            <li><a href="http://twitter.com/kingjohnny"><i class="icon-twitter2"></i> </a></li>
           </ul>
         </nav>
       </div>

@@ -420,6 +420,9 @@
 			float: left;
 			text-align: center;
 			width: 15%;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
 			@media screen and (max-width: $screen-md) {
 				width: 10%;
 			}
@@ -430,6 +433,7 @@
 		.feature-copy {
 			float: right;
 			width: 80%;
+			border-left: 1px solid lighten($black, 70%);
 			@media screen and (max-width: $screen-md) {
 				width: 90%;
 			}
