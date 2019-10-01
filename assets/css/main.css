@@ -1,0 +1,27 @@
+html, body, p{
+    font-family: 'Open Sans', sans-serif;
+  
+  }
+  h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+  }
+  .bg-animate{
+      animation:animatedBackground 30s linear infinite;
+      -ms-animation:animatedBackground 30s linear infinite;
+      -moz-animation:animatedBackground 30s linear infinite;
+      -o-animation:animatedBackground 30s linear infinite;
+      -webkit-animation:animatedBackground 30s linear infinite;  
+  }
+  
+  @keyframes animatedBackground {
+      0% { background-position: right; }
+      100% { background-position: left; }
+  }
+  @-moz-keyframes animatedBackground {
+      0% { background-position: right; }
+      100% { background-position: left; }
+  }
+  @-webkit-keyframes animatedBackground {
+      0% { background-position: right; }
+      100% { background-position: left; }
+  }
